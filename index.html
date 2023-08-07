@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Menu Example</title>
+</head>
+
+<body>
+  <script src="scripts.js"></script>
+
+  <!-- icon -->
+  <div class="mobile-menu-icon" onclick="ClickIcon()">
+    <img src="./img/menu.svg" alt="Menu Icon">
+  </div>
+
+  <!-- Sub menu -->
+  <nav id="menu">
+    <div class="subMenu">
+      <ul>
+        <li>
+          <a href="#">Thời sự</a>
+        </li>
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(1)">
+            <a href="#">Góc nhìn</a>
+            <span class="menu-icon">+</span>
+          </div>
+          <ul id="CusMenu1">
+            <li>
+            <div class="CusMenu" onclick="MenuOnClick(2)">
+              <a href="#">Bình luận nhiều</a>
+                <span class="menu-icon">+</span>
+            </div>
+              <ul id="CusMenu2">
+                <li><a href="#">Chính trị & chính sách</a></li>
+                <li><a href="#">Y tế & sức khoẻ</a></li>
+                <li><a href="#">Giáo dục & tri thức</a></li>
+                <li><a href="#">Kinh doanh & quản trị</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Covid-19</a></li>
+            <li><a href="#">Tác giả</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(3)">
+            <a href="#">Thế giới</a>
+          <span class="menu-icon">+</span>
+          </div>
+            <ul id="CusMenu3">
+            <li><a href="#">Tư liệu</a></li>
+            <li><a href="#">Phân tích</a></li>
+            <li><a href="#">Người Việt 5 Châu</a></li>
+            <li><a href="#">Cuộc sống đó đây</a></li>
+            <li><a href="#">Quân sự</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Video</a>
+        </li>
+
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(4)">
+            <a href="#">Pobcasts</a>
+            <span class="menu-icon">+</span>
+          </div>
+          <ul id="CusMenu4">
+            <li><a href="#">VnExpress hôm nay</a></li>
+            <li><a href="#">Tiền làm gì?</a></li>
+            <li><a href="#">Tài chính cá nhân</a></li>
+            <li><a href="#">Giải mã</a></li>
+            <li><a href="#">Hộp đen</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(5)">
+            <a href="#">Giải trí</a>
+            <span class="menu-icon">+</span>
+          </div>
+          <ul id="CusMenu5">
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Phim</a></li>
+            <li><a href="#">Nhạc</a></li>
+            <li><a href="#">Thời trang</a></li>
+            <li><a href="#">eSport</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(6)">
+            <a href="#">Bất động sản</a>
+            <span class="menu-icon">+</span>
+          </div>
+          <ul id="CusMenu6">
+            <li><a href="#">Chính sách</a></li>
+            <li><a href="#">Thị trường</a></li>
+            <li><a href="#">Dự án</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="CusMenu" onclick="MenuOnClick(7)">
+            <a href="#">Kinh doanh</a>
+            <span class="menu-icon">+</span>
+          </div>
+          <ul id="CusMenu7">
+            <li><a href="#">VnExpress hôm nay</a></li>
+            <li><a href="#">Tiền làm gì?</a></li>
+            <li><a href="#">Tài chính cá nhân</a></li>
+            <li><a href="#">Giải mã</a></li>
+            <li><a href="#">Hộp đen</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
